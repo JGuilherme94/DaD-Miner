@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "GCC",
+            "includePath": [
+                "${workspaceFolder}\\**",
+                "${workspaceFolder}\\build_depedencies\\thirdparty\\include",
+                "${workspaceFolder}\\build_depedencies\\thirdparty\\include\\gtk-3.0", 
+                "${workspaceFolder}\\build_depedencies\\thirdparty\\include\\glib-2.0",
+                "${workspaceFolder}\\build_depedencies\\thirdparty\\include\\pango-1.0",
+                "${workspaceFolder}\\build_depedencies\\thirdparty\\include\\harfbuzz",
+                "${workspaceFolder}\\build_depedencies\\thirdparty\\include\\cairo", 
+                "${workspaceFolder}\\build_depedencies\\thirdparty\\include\\gdk-pixbuf-2.0", 
+                "${workspaceFolder}\\build_depedencies\\thirdparty\\include\\atk-1.0"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "D:\\msys2\\mingw64\\bin\\g++.exe",
+            "compilerArgs": [
+            ],
+            "cStandard":"c17",
+            "cppStandard":"c++17",
+            "intelliSenseMode":"gcc-x64"
+        }
+    ],
+    "version": 4
+}
