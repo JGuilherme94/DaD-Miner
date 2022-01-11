@@ -39,7 +39,8 @@ static gboolean on_expose_event (GtkWidget *widget, GdkEventExpose *event, gpoin
   cairo_set_source_surface (cr, image, 0, 0);
   cairo_paint(cr);
   cairo_destroy(cr);
-  return TRUE;
+  //return TRUE;
+  return FALSE;
 }
 
  int main(int argc, char *argv[])
